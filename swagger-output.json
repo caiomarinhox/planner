@@ -49,6 +49,16 @@
         }
       }
     },
+    "/tasks/overdue": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/tasks/{id}": {
       "get": {
         "description": "",
